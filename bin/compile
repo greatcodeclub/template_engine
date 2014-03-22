@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var fs = require('fs'),
+    file = process.argv[2],
+    input = fs.readFileSync(file, "utf8"),
+    engine = require('../lib/engine')
+
+console.log(engine.render(input))

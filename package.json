@@ -1,0 +1,26 @@
+{
+  "name": "template_engine",
+  "version": "0.0.1",
+  "description": "Template Engine",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/codedinc/template_engine.git"
+  },
+  "keywords": [
+    "css",
+    "parser",
+    "compiler"
+  ],
+  "author": "Marc-Andre Cournoyer",
+  "bugs": {
+    "url": "https://github.com/codedinc/template_engine/issues"
+  },
+  "dependencies": {
+    "jison": "0.4.x",
+    "mocha": "1.x",
+    "nodemon": "1.x"
+  }
+}
